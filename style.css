@@ -1,12 +1,385 @@
 
-        h1 {
-	        color: #ff00ff;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        /* bring your own prefixes */
-        transform: translate(-50%, -50%);
+        @font-face {
+          font-family: "Germaniaone";
+          src: url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.eot");
+          src: 
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.woff") format("woff"),
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.otf") format("opentype"),
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.svg#filename") format("svg");
         }
+
+        @font-face {
+          font-family: "Space";
+          src: url("fonts/Insane hours 2.ttf");
+        }
+
+        @font-face {
+          font-family: "Product";
+          src: url("fonts/Product-Sans-Bold.ttf");
+        }
+
+        @font-face {
+          font-family: "Digital";
+          src: url("fonts/Digital-Medium.ttf");
+        }
+
+        #secret {
+	        color: #ff00ff;
+          position: relative;
+          top: 50%;
+          left: 50%;
+          height: 80vh;
+          /* bring your own prefixes */
+          transform: translate(-50%);
+        }
+
+         #YouMadeIt {
+	        color: #ff00ff;
+          position: relative;
+          top: 50%;
+          left: 50%;
+          height: 60vh;
+          /* bring your own prefixes */
+          transform: translate(-50%);
+        }
+
+        #task1 {
+          margin-left: 130px;
+          margin-top: 60px;
+          background: #e6335a;
+          border: 2px solid #ff0000;
+          color: #ffffff;
+          font-size: 24px;
+          padding: 10px 20px;
+          font-family: Digital;
+
+        }
+
+        #task2 {
+          margin-left: 210px;
+          margin-top: 60px;
+          background: #3fba84;
+          border: 2px solid #236347;
+          color: #ffffff;
+          font-size: 24px;
+          padding: 10px 20px;
+          font-family: Digital;
+
+        }
+
+        #task3 {
+          margin-left: 210px;
+          margin-top: 60px;
+          background: #40a1ed;
+          border: 2px solid #0045ad;
+          color: #ffffff;
+          font-size: 24px;
+          padding: 10px 20px;
+          font-family: Digital;
+
+        }
+
+        #task4 {
+          margin-left: 200px;
+          margin-top: 60px;
+          background: #f0be36;
+          border: 2px solid #d3a321;
+          color: #ffffff;
+          font-size: 24px;
+          padding: 10px 20px;
+          font-family: Digital;
+
+        }
+
+        #task1:hover {
+          background-color: #c7657a;
+        }
+
+        #task2:hover {
+          background-color: #76c2a1;
+        }
+
+        #task3:hover {
+          background-color: #66b0e9;
+        }
+
+        #task4:hover {
+          background-color: #e8ff63;
+        }
+
+        #Head-LOGO {
+          padding: 20px;
+	        color: #ff00ff;
+          position: relative;
+          left: 0%;
+          top: 11px;
+          height: 35px;
+          /* bring your own prefixes */
+          transform: translate(-4%);
+          z-index: 1031;
+
+        }
+
+        #argBlock {
+          margin: 0px
+
+        }
+
+        #argBlockBottom {
+          margin: 70px
+
+        }
+
+        #LOGO {
+          margin: -20px;
+          margin-right: -25px;
+          margin-top: 40px;
+	        color: #ff00ff;
+          position: relative;
+          height: 120px;
+          
+
+        }
+
+        #LOGOSin {
+          margin: -20px;
+          margin-right: -25px;
+          margin-top: 40px;
+	        color: #ff00ff;
+          position: relative;
+          height: 200px;
+          
+          /**right:50%;
+          left:50%;
+         
+          transform: translate(-48%)**/
+          
+          display: block;
+          margin: 0 auto;
+
+          
+
+        }
+
+        #logoText{
+
+          margin-left: 130px;
+          margin-top: 20px;
+          background: #000000;
+          color: #b10000;
+          font-size: 90px;
+          padding: 10px 20px;
+          font-family: Digital;
+          top: 50%;
+          left: 0;
+          right: 0;
+          text-align: center;
+          height: 160px;
+          transform: translate(-4%);
+          /* bring your own prefixes */
+
+        }
+
+        #signLcusd {
+
+          background: #000000;
+          display: block;
+          margin: 0 auto;
+          font-family: Digital;
+          font-size: 16px;
+          color: #ce0000;
+          margin-left: 41%;
+          margin-right: 41%;
+          margin-top: 10px;
+          margin-bottom: -20px;
+
+        }
+
+
+
+
+        #Definition {
+
+          background: #000000;
+          color: #ffffff;
+          font-family: Digital;
+          margin-left: 59%;
+          margin-top: 10px;
+          /* bring your own prefixes */
+          transform: translate(-68%);
+          font-size: 20px;
+
+        }
+
+
+
+        #areu {
+          margin-top: 20px;
+          margin-left: 50vw;
+          background: #000000;
+          font-family: Digital;
+          font-size: 24px;
+          text-align: center;
+          transform: translate(-7vw);
+          position: relative;
+
+          
+
+        }
+
+        #mt {
+          
+          
+          text-align: center;
+          font-size: 32px;
+          color: #ffffff;
+          font-family: Digital;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -70%);
+          border: 2px solid #72ff00;
+          padding: 20px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          background: #272727;
+
+        }
+
+        green {
+          
+          color:#72ff00;
+        }
+
+        black {
+          
+          color:#000000;
+        }
+
+
+        #foot {
+          font-size: 12px;
+          color:#ffffff;
+          font-family: Digital;
+          text-align: center;
+          background: #419100;
+          /*border:2px solid #ac95ff;*/
+          padding: 15px 30px;
+          position: fixed;
+          right: 0;
+          bottom: 0px;
+          left: 0;
+          z-index: 1030;
+        }
+
+        #heady {
+          font-size: 12px;
+          color:#ffffff;
+          font-family: Digital;
+          text-align: center;
+          background: #3700ff;
+          /*border:2px solid #ac95ff;*/
+          padding: -3px 15px;
+          position: fixed;
+          right: 0;
+          top: -10px;
+          left: 0;
+          z-index: 1030;
+          transform: translate(0,-17px);
+
+
+        }
+
+        #sign {
+          /*font-size: 12px;
+          color:#ffffff;
+          font-family: Digital;
+          text-align: center;
+          background: #2c6cd3;
+          /*border:2px solid #ac95ff;
+          padding: 5px 6px;*/
+          position: fixed;
+          right: 20px;
+          top: 35px;
+          z-index: 1030;
+          background: #00000000;
+          color: #00000000;
+          border-color: #00000000;
+          margin-top: -4px;
+        }
+
+
+        #but {
+          
+          color: #ff0000;
+          position: relative;
+          /* bring your own prefixes */
+          text-align:center;
+          margin: 10px;
+
+        }
+
+        #g {
+          font-family: Product;
+          font-size: 16px;
+          margin-right: 4px;
+          margin-top: 2px;
+        }
+
+        #firebaseui-auth-container {
+          background: #000000;
+          margin: 50px;
+
+        }
+
+        #privacy {
+          font-size: 20px;
+          color:#ffffff;
+          font-family: Digital;
+          text-align: center;
+          background: #2c6cd3;
+          border:2px solid #ff0000;
+          padding: 5px 6px;
+          position: fixed;
+          right: 200px;
+          left: 200px;
+          top: 0px;
+          z-index: 1030;
+
+        }
+
+        .firebaseui-card-content{
+          background: #000000;
+
+        }
+
+        .firebaseui-card-footer{
+          background: #000000;
+        }
+
+        .firebaseui-tos {
+          background: #000000;
+        }
+
+
+        h2 {
+	        color: #ff0000;
+        position: relative;
+        /* bring your own prefixes */
+        text-align:center;
+        margin: 0px;
+        }
+
+        #task1First {
+          background: #180b14;
+          border: 3px solid #ff0000;
+          color: #ff0000;
+          font-size: 32px;
+          padding: 8px 10px;
+          font-family: Germaniaone;
+
+        }
+
         body {
           background-color: #000000;
         }
@@ -17,4 +390,10 @@
 
         p {
           background-color: yellow;
+        }
+
+        #profile {
+
+          height: 35px;
+
         }
