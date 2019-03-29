@@ -1,0 +1,75 @@
+        @font-face {
+          font-family: "Germaniaone";
+          src: url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.eot");
+          src: 
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.woff") format("woff"),
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.otf") format("opentype"),
+          url("fonts/webfontkit-20190322-224407/germaniaone-regular-webfont.svg#filename") format("svg");
+        }
+
+        @font-face {
+          font-family: "Space";
+          src: url("fonts/Insane hours 2.ttf");
+        }
+
+        @font-face {
+          font-family: "Product";
+          src: url("fonts/Product-Sans-Bold.ttf");
+        }
+
+        @font-face {
+          font-family: "Digital";
+          src: url("fonts/Digital-Medium.ttf");
+        }
+        
+        body {
+          background-color: #000000;
+        }
+
+        div {
+          background-color: lightblue;
+        }
+
+        p {
+          background-color: yellow;
+        }
+
+        #profile {
+
+          height: 35px;
+
+        }
+
+        #Task1Message {
+          background: #000000;
+          margin: 10px;
+          margin-bottom: 20px;
+          color: #2917c4;
+          font-size: 24px;
+          font-family: Digital;
+          text-align: center;
+
+        }
+
+        #task1topmargin {
+
+          margin: 50px;
+
+        }
+
+        #task1bottommargin {
+
+          margin: 50px;
+
+        }
+
+        #task1First {
+          background: #180b14;
+          border: 3px solid #ff0000;
+          color: #ff0000;
+          font-size: 32px;
+          padding: 3px 10px;
+          font-family: Germaniaone;
+          
+
+        }
